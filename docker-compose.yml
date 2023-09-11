@@ -1,0 +1,29 @@
+version: '3'
+services: 
+ web: 
+  image: nginx:latest
+  ports:
+   - "80:80"
+  volumes:
+   - ./nginx-config:/etc/nginx/conf.d/
+   - ./app:/app
+ php: 
+    build:
+        context: .
+        dockerfile: PHP.dockerfile 
+    volumes:
+        - ./app:/app
+
+ mysql: 
+    image: mariadb:latest
+    environment: 
+        MYSQL_ROOT_PASSWORD: 'Stintw@n@66002919'
+        MYSQL_USER: 'distaxs'
+        MYSQL_PASSWORD: 'Stintw@n@66002919'
+        MYSQL_DATABASE: 'konnec'
+    volumes: 
+        - mysqldata:/var/lib/mysql
+    ports:
+        - 3306:3306
+volumes:
+    mysqldata: {}

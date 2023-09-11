@@ -1,0 +1,132 @@
+/*This Is Temporary I Want Us To Use SASS/LESS For Front End*/
+
+*{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size  : 14px;
+}
+
+body{
+    width      :700px;
+    margin     :20px auto;
+    background : #f8f8ff;
+    border     : 1px solid #888;
+}
+html{
+    background: #f8f8f8;
+}
+
+img{
+    border : 1px solid black;
+    margin-right : 15px;
+    -moz-box-shadow:2px 2px 2px #888;
+    -webkit-box-shadow:2px 2px 2px #888;
+    box-shadow:2px 2px 2px #888;
+}
+li a,button{
+text-decoration: none;
+color:black;
+}
+
+textarea{
+    width:300px;
+    height: 50px;
+    box-shadow: 0 0 0 2px #555;
+    border: 1px solid transparent;
+    border-radius: 20px;
+}
+form{
+    padding:0;
+}
+li a:hover, button:hover{
+    color:#006295;
+}
+
+
+
+.fieldname{
+    float:left;
+    width:120px;
+}
+
+.main{
+    margin-left:40px;
+}
+img{
+    width:100px;
+    height:100px;
+    border-radius:50%;
+}
+.info{
+
+color:black;
+border: 1px solid green;
+padding:5px 10px;
+margin-left:40px;
+}
+.menu li{
+    display:inline;
+    text-decoration: none;
+    margin:5px;
+}
+.menu{
+    padding:10px;
+    display: absolute;
+    left:0;
+    width:20%;
+    height: 100%;
+}
+ .button{
+    display: inline;
+    padding : 4px 6px;
+    border:1px solid #777;
+    background: #ddd;
+    color:#0c0c0c;
+    margin-right: 8px;
+    border-radius: 5px;
+    -moz-box-shadow:2px 2px 2px #888;
+    -webkit-box-shadow:2px 2px 2px #888;
+    box-shadow:2px 2px 2px #888;
+}
+
+.subhead{
+    font-weight: bold;
+}
+
+.taken, .error{
+    color:red;
+}
+
+.availabe{
+    color: green;
+}
+.whisper{
+    font-style: italic;
+    font-size:97px;
+}
+
+/* Style the search box inside the navigation bar */
+
+.search input[type=text] {
+  
+  width: 20%;
+  display: inline-block;
+  padding: 14px 16px ;
+  text-decoration: none;
+  font-size: 17px;
+  margin:2px;
+}
+.search button {
+  background-color: #f4f4f4;
+  color: #0c0c0c;
+  border: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 22px;
+
+ margin:2px;
+   display: inline-block;
+} 
+.icons .fa{
+    padding:5px;
+}

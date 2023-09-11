@@ -1,0 +1,67 @@
+$primaryColor:#a80c9b;
+$backGroundColor:#f1f1ff;
+$primaryHeadingColor:#f1f1f1;
+
+.jumbotron{
+}
+
+ul{
+    background-color: #056;
+    padding:22px;
+    margin:0;
+    top:0;
+    position: absolute;
+    width:100%;
+    text-align: center;
+}
+
+ul li{
+    padding: 7px;
+    display:inline;
+}
+ul li a{
+    color:white;
+}
+    
+.heading{
+text-align: center;
+text-decoration: underline;
+text-decoration-color: #056;
+}
+
+.row-article{
+    display:flex;
+    flex-wrap:wrap;
+justify-content: center;
+}
+
+.card{
+  flex :30px;
+  max-width:20%;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+  text-align: center;
+  margin:30px;
+  border-radius:15px!important;
+  padding:0;
+    }
+    .card a{
+    text-decoration:underline;
+    font-size :16px;
+    background-color:#056;
+    color:#f8f8ff;
+    padding:10px;
+    border-radius: 0 0 15px 15px;
+    width:100%;
+}
+.card a:hover,ul li a:hover{
+    color:black;
+}
+.card img{
+width:100%;
+border-radius: 10px 10px 0 0;    
+}
+
+.article{
+    text-align :center;
+}
+    
